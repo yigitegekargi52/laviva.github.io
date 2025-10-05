@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sadece ASKIIIMMMMBALİİİİMMMMM İçin 💘</title>
+  <title>Sadece LAVİVAAAMMMMMMMMMMMMM İçin 💘</title>
   <link rel="stylesheet" href="anasayfa.css"/>
 </head>
 <body>
@@ -23,7 +23,7 @@
   <!-- Kalp Yağmuru -->
   <div class="hearts" id="heart-container"></div>
 
-  <h1> SADECEEEEE LİVAMMMMMMMMMMMMMMMMMMMM'A Özel İnt Sayfasıdırrrrr 💕</h1>
+  <h1> SADECEEEEE LAVİVAAAMMMMMMMMMMMMMMM'A Özel İnt Sayfasıdırrrrr 💕</h1>
   <p>Bu sayfayı sadeceeeee seniiiiiinnnnnnnn için yaptııımmmmmmmm GUZELIIIIMMMMM.</p>
 
   <!-- Dikey Kayan Yazı -->
@@ -76,47 +76,7 @@
          style="max-width: 300px; width: 90%; border: 5px solid #ffaec9; border-radius: 20px; box-shadow: 0 0 15px rgba(255, 105, 180, 0.5);" />
     <p style="font-style: italic; color: #a8325a; margin-top: 10px;">Gülüşün her şeye bedel...</p>
   </div>
-
-
-  <!-- JavaScript: Kalp Yağmuru -->
-  <script>
-    const heartContainer = document.getElementById("heart-container");
-    for (let i = 0; i < 50; i++) {
-      const heart = document.createElement("div");
-      heart.classList.add("heart");
-      heart.innerHTML = "❤️";
-      heart.style.left = Math.random() * 100 + "vw";
-      heart.style.fontSize = Math.random() * 20 + 10 + "px";
-      heart.style.animationDuration = Math.random() * 3 + 2 + "s";
-      heartContainer.appendChild(heart);
-    }
-    // Modal kutusu fonksiyonları
-    function showModal(message) {
-      document.getElementById('modalMessage').textContent = message;
-      document.getElementById('customModal').style.display = 'flex';
-    }
-    function closeModal() {
-      document.getElementById('customModal').style.display = 'none';
-    }
-  </script>
-
-  <!-- 🎵 Müzik çalar (sayfanın altında sabit durur) -->
-  <div
-    style="
-      position: fixed;
-      bottom: 10px;
-      left: 50%;
-      transform: translateX(-50%);
-      background: rgba(255, 255, 255, 0.8);
-      padding: 10px 20px;
-      border-radius: 20px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      z-index: 999;
-    "
-  >
-    <audio controls autoplay loop>
-      <source src="music/hernerdeysen.mp3" type="audio/mp3"/>
-    </audio>
+  <script src="js/anasayfa.js"></script>
   </div>
 </body>
 </html>
